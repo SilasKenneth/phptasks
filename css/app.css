@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "Lato";
+    src:"../fonts/Lato-Hairline.ttf";
+}
+*{
+    font-family: "Lato";
+    font-weight:600;
+}
+.card{
+    min-height:700px;
+}
+
