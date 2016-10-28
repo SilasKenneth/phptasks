@@ -239,7 +239,7 @@ class Progress extends Database{
   <div>
     <div class="carousel carousel-slider center" data-indicators="true">
     
-    <div class="carousel-item  white-text center" style="background:url('https://static.pexels.com/photos/9056/pexels-photo.jpg')" href="#one!">
+    <div class="carousel-item  white-text center" style="background:url('https://static.pexels.com/photos/9056/pexels-photo.jpg');background-size:cover;" href="#one!">
    
       <h2>First Panel</h2>
       <p class="white-text">This is your first panel</p>
