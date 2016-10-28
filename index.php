@@ -236,6 +236,8 @@ class Progress extends Database{
        <title>Andela Tasks Manager</title>
   </head>
   <body class="teal lighten-2">
+  <!-- Not Really Necessary -->
+  <!-- 
   <div>
     <div class="carousel carousel-slider center" data-indicators="true">
     
@@ -259,7 +261,9 @@ class Progress extends Database{
     </div>
   </div>
   </div>
-
+<!-- 
+End of Not really necessary
+-->
   <!-- End corousal -->
       <div class="row section hide-on-med-and-down grey lighten-4 ">
       
