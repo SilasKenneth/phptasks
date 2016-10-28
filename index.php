@@ -469,7 +469,7 @@ class Progress extends Database{
          </div>
                   
        </div>
-   <script src=""></script>
+   <script src="scripts.min.js"></script>
    <script>
     $(function(){
       $(document).ready(function(){
