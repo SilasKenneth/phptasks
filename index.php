@@ -236,7 +236,32 @@ class Progress extends Database{
        <title>Andela Tasks Manager</title>
   </head>
   <body class="teal lighten-2">
+  <div>
+    <div class="carousel carousel-slider center" data-indicators="true">
+    
+    <div class="carousel-item red white-text" href="#one!">
+      <h2>First Panel</h2>
+      <p class="white-text">This is your first panel</p>
+      <a href="#!" class="btn waves-effect waves-light grey lighten-3 grey-text">Yellow </a>
+    </div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <h2>Second Panel</h2>
+      <p class="white-text">This is your second panel</p>
+    </div>
+    <div class="carousel-item green white-text" href="#three!">
+      <h2>Third Panel</h2>
+      <p class="white-text">This is your third panel</p>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+      <h2>Fourth Panel</h2>
+      <p class="white-text">This is your fourth panel</p>
+    </div>
+  </div>
+  </div>
+
+  <!-- End corousal -->
       <div class="row section grey lighten-4 ">
+      
           <h1 class="heading center " style="font-family:Lato;font-weight:100;">
                   Presentation in the wild
               </h1>
@@ -450,6 +475,13 @@ class Progress extends Database{
       $(document).ready(function(){
           $(".addRequirement").leanModal();
           $('select').material_select();
+          $(".carousel.carousel-slider").carousel({full_width:true});
+ 
+autoplay();  
+function autoplay() {
+    $('.carousel.carousel-slider').carousel('next');
+    setTimeout(autoplay, 4500);
+}
       });
     });
    </script>
