@@ -239,20 +239,21 @@ class Progress extends Database{
   <div>
     <div class="carousel carousel-slider center" data-indicators="true">
     
-    <div class="carousel-item red white-text" href="#one!">
+    <div class="carousel-item red white-text center" href="#one!">
+   
       <h2>First Panel</h2>
       <p class="white-text">This is your first panel</p>
       <a href="#!" class="btn waves-effect waves-light grey lighten-3 grey-text">Yellow </a>
     </div>
-    <div class="carousel-item amber white-text" href="#two!">
+    <div class="carousel-item amber white-text center" href="#two!">
       <h2>Second Panel</h2>
       <p class="white-text">This is your second panel</p>
     </div>
-    <div class="carousel-item green white-text" href="#three!">
+    <div class="carousel-item green white-text center" href="#three!">
       <h2>Third Panel</h2>
       <p class="white-text">This is your third panel</p>
     </div>
-    <div class="carousel-item blue white-text" href="#four!">
+    <div class="carousel-item blue white-text center" href="#four!">
       <h2>Fourth Panel</h2>
       <p class="white-text">This is your fourth panel</p>
     </div>
@@ -475,7 +476,7 @@ class Progress extends Database{
       $(document).ready(function(){
           $(".addRequirement").leanModal();
           $('select').material_select();
-          $(".carousel.carousel-slider").carousel({full_width:true});
+          $(".carousel.carousel-slider").carousel({full_width:true,indicators:true});
  
 autoplay();  
 function autoplay() {
