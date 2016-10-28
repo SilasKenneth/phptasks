@@ -9,11 +9,6 @@ PHP Applications to manage a Single project when working on
       &nbsp;&nbsp;&nbsp;&nbsp; **dsn**:*"mysql:host=**your host name**;dbname=**andela**;"*<br>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**anon**:*your_mysql_username*<br>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**passiwadi**:*your_user_database_password*<br>
-       <style>
-        body{
-          background:whitesmoke;
-        }
-       </style>
 <br>
 <br>
 If all goes well then you can proceed and run the project by typing [http://localhost/phptasks](http://localhost/phptasks) to your favourite web browser
