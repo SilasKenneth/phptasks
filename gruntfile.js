@@ -1,7 +1,7 @@
 module.exports =function(grunt){
   grunt.initConfig({
     uglify:{
-      build:{
+         build:{
 	src: './js/*.js',
 	dest: 'scripts.min.js'
     }
