@@ -261,7 +261,7 @@ class Progress extends Database{
   </div>
 
   <!-- End corousal -->
-      <div class="row section grey lighten-4 ">
+      <div class="row section hide-on-med-and-down grey lighten-4 ">
       
           <h1 class="heading center " style="font-family:Lato;font-weight:100;">
                   Presentation in the wild
