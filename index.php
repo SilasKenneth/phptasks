@@ -349,8 +349,7 @@ End of Not really necessary
                    </div>
              </div>
          </div>
-          <ul>
-          </ul>
+          
          
 <!-- Work Plan -->
          <div class="col s12 m12 l6">
