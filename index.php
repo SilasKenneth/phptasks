@@ -476,7 +476,7 @@ class Progress extends Database{
       $(document).ready(function(){
           $(".addRequirement").leanModal();
           $('select').material_select();
-          $(".carousel.carousel-slider").carousel({full_width:true,indicators:true});
+          $(".carousel.carousel-slider").carousel({full_width:true,indicators:true,time_constant:70});
  
 autoplay();  
 function autoplay() {
